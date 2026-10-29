@@ -105,7 +105,7 @@ Seven roles, all inheriting from a common `User` class (login, logout, update pr
 
 SHMS uses a **layered (n-tier) architecture built as a modular monolith**, with MVC in the presentation layer and an event-driven mechanism for notifications. It is one deployable application, but its code is split into eight modules with clear interfaces, so a module can later be extracted into a service if the hospital grows.
 
-![SHMS architecture diagram](docs/images/architecture-diagram.png)
+![SHMS architecture diagram](architecture-diagram.png)
 
 ```mermaid
 flowchart TB
